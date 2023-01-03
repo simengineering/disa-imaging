@@ -1,5 +1,5 @@
 Custom image built by Jenkins.
-Matthew L Hopper
+
 
 This job is triggered by the weekly Oracle base-image checker job located in support-files/custom-image/ci/check-for-latest-image.Jenkinsfile. The image-checker runs Sunday around midnight EST. If the checker determines Oracle has released a new base-image, this image builder will be started. This job is called by the checker using 'main' as the branch. 'Main' is currently configured
 as the default builder, running oracle linux 7.9. See * Note: @ bottom for information on other branches.
